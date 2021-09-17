@@ -1,0 +1,92 @@
+{
+  "nodes": {
+    "flake-utils": {
+      "locked": {
+        "lastModified": 1631561581,
+        "narHash": "sha256-3VQMV5zvxaVLvqqUrNz3iJelLw30mIVSfZmAaauM3dA=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "7e5bf3925f6fbdfaf50a2a7ca0be2879c4261d19",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "naersk": {
+      "inputs": {
+        "nixpkgs": "nixpkgs"
+      },
+      "locked": {
+        "lastModified": 1631004250,
+        "narHash": "sha256-LGh0CjAZwh13AVkTi9w9lITEC7x6bwSQyFViOZ6HyNo=",
+        "owner": "nmattia",
+        "repo": "naersk",
+        "rev": "08afb3d1dbfe016108b72e05b02ba0f6ecb3c8e1",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nmattia",
+        "repo": "naersk",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1631907748,
+        "narHash": "sha256-eOGmZLTmIhK/A/jmsEws2oJ303GMFkegS/A4/jesS1g=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "f12fb7a7d2018fea693e765f1ba2eed585edc43e",
+        "type": "github"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "nixpkgs_2": {
+      "locked": {
+        "lastModified": 1632263565,
+        "narHash": "sha256-SRqL1dz09/jfGSKwk5vwrJkBpn2ExaNVaiU/1SWT8Lk=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "1962959e29736589835583a9b9635ad68c921212",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "flake-utils": "flake-utils",
+        "naersk": "naersk",
+        "nixpkgs": "nixpkgs_2",
+        "tcn-src": "tcn-src"
+      }
+    },
+    "tcn-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1597874178,
+        "narHash": "sha256-yaE4RwDdOVjqrIWtlaWy3bHyvbzfD5Zw5TJQQuW8Czs=",
+        "owner": "TCNCoalition",
+        "repo": "TCN",
+        "rev": "6b64d09b55444ebdcf4d3d2a62b37c8a03a193ca",
+        "type": "github"
+      },
+      "original": {
+        "owner": "TCNCoalition",
+        "repo": "TCN",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
